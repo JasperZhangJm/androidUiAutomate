@@ -1,0 +1,95 @@
+[2022-06-09 18:51:47] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "R58N828LKMP", "appium:udid": "R58N828LKMP", "appium:platformVersion": "10", "appium:appPackage": "com.glazero.android", "appium:appActivity": "com.glazero.android.SplashActivity", "appium:noReset": true, "appium:autoGrantPermissions": true}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "R58N828LKMP", "udid": "R58N828LKMP", "platformVersion": "10", "appPackage": "com.glazero.android", "appActivity": "com.glazero.android.SplashActivity", "noReset": true, "autoGrantPermissions": true}}
+[2022-06-09 18:51:47] DEBUG connectionpool.py [227] MainThread : Starting new HTTP connection (1): 127.0.0.1:4723
+[2022-06-09 18:51:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 995
+[2022-06-09 18:51:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:51:59] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:51:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:51:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:35] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/app/close {}
+[2022-06-09 18:52:35] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/app/close HTTP/1.1" 200 14
+[2022-06-09 18:52:35] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:35] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:35] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:35] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:35] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/app/launch {}
+[2022-06-09 18:52:40] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/app/launch HTTP/1.1" 200 14
+[2022-06-09 18:52:40] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:40] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:40] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:40] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:40] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element {"using": "id", "value": "com.glazero.android:id/img_menu"}
+[2022-06-09 18:52:50] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element HTTP/1.1" 404 916
+[2022-06-09 18:52:50] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:50] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element {"using": "id", "value": "com.glazero.android:id/splash_login"}
+[2022-06-09 18:52:50] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element HTTP/1.1" 200 137
+[2022-06-09 18:52:50] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:50] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b16-ffff-ffff00000009/click {"id": "00000000-0000-0b16-ffff-ffff00000009"}
+[2022-06-09 18:52:50] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b16-ffff-ffff00000009/click HTTP/1.1" 200 14
+[2022-06-09 18:52:50] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:50] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:50] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:50] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:50] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:52] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:52] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:52] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/clear {"id": "00000000-0000-0b17-ffff-ffff00000023"}
+[2022-06-09 18:52:52] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/clear HTTP/1.1" 200 14
+[2022-06-09 18:52:52] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:52] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:52] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:52] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:52] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:53] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:53] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:53] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/click {"id": "00000000-0000-0b17-ffff-ffff00000023"}
+[2022-06-09 18:52:53] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/click HTTP/1.1" 200 14
+[2022-06-09 18:52:53] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:53] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:53] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:53] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:53] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:54] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:54] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:54] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/value {"text": "1010642719@qq.com", "value": ["1", "0", "1", "0", "6", "4", "2", "7", "1", "9", "@", "q", "q", ".", "c", "o", "m"], "id": "00000000-0000-0b17-ffff-ffff00000023"}
+[2022-06-09 18:52:55] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000023/value HTTP/1.1" 200 14
+[2022-06-09 18:52:55] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:55] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/device/hide_keyboard {"strategy": "tapOutside"}
+[2022-06-09 18:52:56] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/device/hide_keyboard HTTP/1.1" 200 14
+[2022-06-09 18:52:56] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:56] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:57] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:57] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:57] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/clear {"id": "00000000-0000-0b17-ffff-ffff00000037"}
+[2022-06-09 18:52:57] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/clear HTTP/1.1" 200 14
+[2022-06-09 18:52:57] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:57] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:57] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:57] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:57] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:58] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:58] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:58] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/click {"id": "00000000-0000-0b17-ffff-ffff00000037"}
+[2022-06-09 18:52:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/click HTTP/1.1" 200 14
+[2022-06-09 18:52:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:59] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:52:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:52:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:59] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:52:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:52:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:59] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/value {"text": "Qwe222222", "value": ["Q", "w", "e", "2", "2", "2", "2", "2", "2"], "id": "00000000-0000-0b17-ffff-ffff00000037"}
+[2022-06-09 18:52:59] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff00000037/value HTTP/1.1" 200 14
+[2022-06-09 18:52:59] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:52:59] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/device/hide_keyboard {"strategy": "tapOutside"}
+[2022-06-09 18:53:00] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/appium/device/hide_keyboard HTTP/1.1" 200 14
+[2022-06-09 18:53:00] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:53:00] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements {"using": "id", "value": "com.glazero.android:id/edit_text"}
+[2022-06-09 18:53:01] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/elements HTTP/1.1" 200 395
+[2022-06-09 18:53:01] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:53:01] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff0000004b/click {"id": "00000000-0000-0b17-ffff-ffff0000004b"}
+[2022-06-09 18:53:01] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element/00000000-0000-0b17-ffff-ffff0000004b/click HTTP/1.1" 200 14
+[2022-06-09 18:53:01] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:53:01] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts {"implicit": 10000}
+[2022-06-09 18:53:01] DEBUG connectionpool.py [452] MainThread : http://127.0.0.1:4723 "POST /wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/timeouts HTTP/1.1" 200 14
+[2022-06-09 18:53:01] DEBUG remote_connection.py [440] MainThread : Finished Request
+[2022-06-09 18:53:01] DEBUG remote_connection.py [388] MainThread : POST http://127.0.0.1:4723/wd/hub/session/9d080563-7855-4858-b082-4cd3124cfaea/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"+86\"))"}
