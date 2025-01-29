@@ -1,0 +1,68 @@
+- desc: Galaxy S10e, port_4723
+  port: 4723
+  des:
+    platformName: Android
+    automationName: uiautomator2
+    deviceName: R58M165SSVL
+    udid: R58M165SSVL
+    platformVersion: !!str 12
+    appPackage: com.glazero.android
+    appActivity: com.glazero.android.SplashActivity
+    noReset: !!bool True
+    autoGrantPermissions: !!bool True
+    newCommandTimeout: 360000
+
+- desc: moto g stylus 5G, port_4728
+  port: 4728
+  des:
+    platformName: Android
+    automationName: uiautomator2
+    deviceName: ZY22CXDW3K
+    udid: ZY22CXDW3K
+    platformVersion: !!str 12
+    appPackage: com.glazero.android
+    appActivity: com.glazero.android.SplashActivity
+    noReset: !!bool True
+    autoGrantPermissions: !!bool True
+    newCommandTimeout: 360000
+
+- desc: SamsungA51,port_4723
+  port: 4723
+  des:
+    platformName: Android
+    automationName: uiautomator2
+    deviceName: R58N828LKMP
+    udid: R58N828LKMP
+    platformVersion: !!str 10
+    appPackage: com.glazero.android
+    appActivity: com.glazero.android.SplashActivity
+    noReset: !!bool True
+    autoGrantPermissions: !!bool True
+    newCommandTimeout: 360000
+
+- desc: HuaweiMate8,port_4725
+  port: 4725
+  des:
+    platformName: Android
+    automationName: uiautomator2
+    devicename: CJL5T16928000786
+    udid: CJL5T16928000786
+    platformVersion: !!str 8.0.0
+    appPackage: com.glazero.android
+    appActivity: com.glazero.android.SplashActivity
+    noReset: !!bool True
+    autoGrantPermissions: !!bool True
+    newCommandTimeout: 360000
+
+- desc: moto_z4,port_4727
+  port: 4727
+  des:
+    platformName: Android
+    automationName: uiautomator2
+    devicename: ZY226JWPJ5
+    udid: ZY226JWPJ5
+    platformVersion: !!str 10
+    appPackage: com.glazero.android
+    appActivity: com.glazero.android.SplashActivity
+    noReset: !!bool True
+    newCommandTimeout: 360000
